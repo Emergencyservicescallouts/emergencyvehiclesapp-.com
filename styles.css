@@ -1,34 +1,43 @@
-/* styles.css */
-
+/* Basic styles */
 body {
-    background-color: #f0f0f0; /* Change to your desired background color */
-    /* or */
-    /* background-image: url('background.jpg'); */ /* Uncomment this line to use a background image */
-    /* background-size: cover; */ /* Uncomment this line to cover the whole background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
-    margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
 }
 
-a {
-    display: block;
-    padding: 10px;
-    background-color: #fff; /* Background color for links */
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #333; /* Text color for links */
-    border-radius: 5px;
 }
 
-a:hover {
-    background-color: #ddd; /* Background color for links on hover */
+nav ul li a img {
+    vertical-align: middle; /* Align image and text vertically */
+    margin-right: 0.5rem; /* Adjust spacing between image and text */
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
